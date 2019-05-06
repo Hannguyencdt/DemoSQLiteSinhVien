@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtId"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Id"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Ten" />
+
+            <EditText
+                android:id="@+id/edtOld"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Tuoi"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Dia chi" />
+
+            <EditText
+                android:id="@+id/edtNameClass"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Ten Lop" />
+
+            <Button
+                android:id="@+id/btnAddSV"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Thêm Sinh Vien" />
+
+            <Button
+                android:id="@+id/btnUpdateSV"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Sửa thông tin Sinh Viên" />
+
+            <Button
+                android:id="@+id/btnDeleteSV"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Xóa Sinh Viên" />
+
+            <Button
+                android:id="@+id/btnShowAllSV"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Xem danh sách sinh viên" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
